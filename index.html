@@ -6,18 +6,32 @@
     <title>Generate a random password</title>
 
     <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <div id="main-section">
         <div id="header-section">
-          <p>
+          <p style="width: 500px; color: white">
             Generate a <br />
-            random password
+            <span style="color: #10b981">random password</span>
           </p>
         </div>
         <p id="text-p">Never use an insecure password again.</p>
-        <button>Generate passwords</button>
+        <button id="generate-button">Generate passwords</button>
         <hr />
       </div>
 
@@ -26,5 +40,7 @@
         <div class="password"></div>
       </div>
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
