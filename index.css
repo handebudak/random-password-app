@@ -83,6 +83,7 @@ button {
 button:hover {
   background-color: #0e8a72;
   color: #fff;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
